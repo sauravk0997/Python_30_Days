@@ -59,5 +59,13 @@ def words(l):
 
 strb = "geeks for geeks"
 stra =  "I am a teacher and I love to inspire and teach people."
-s = set(strb.split(" "))
+s = set(stra.split(" "))
 words(s)
+
+text = "geeks for geeks"
+words = text.split()
+for word in words:
+    if text.count(word) == 1:
+        print("Count",word)
+    else:
+        pass
